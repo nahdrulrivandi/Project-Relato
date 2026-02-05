@@ -1,0 +1,647 @@
+<!doctype html>
+<html class="bg-putih">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR START -->
+    <nav id="navbar" class="fixed bg-putih top-0 left-0 z-50 flex justify-between w-full items-center p-5 sm:px-8 md:px-10 lg:px-20 lg:py-6 transition-transform duration-300 ease-in-out">
+        <!-- Logo -->
+        <div>
+            <img class="h-4 sm:h-5 md:h-6" src="../Assets/Brand name.svg" alt="">
+        </div>
+        
+        <!-- Desktop Menu -->
+        <div class="hidden sm:flex items-center">
+            <ul class="flex gap-4 font-inter font-m lg:gap-20">
+                <li>
+                    <a class="text-hitam hover:text-hover" href="#">Home</a>
+                </li>
+
+                <li>
+                    <a class="text-hitam hover:text-hover" href="#features">Features</a>
+                </li>
+
+                <li>
+                    <a class="text-hitam hover:text-hover" href="#pricing-list">Pricing List</a>
+                </li>
+
+                <li>
+                    <a class="text-hitam hover:text-hover" href="#testimonials">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Buttons -->
+        <div class="hidden sm:flex flex-row gap-5 items-center lg:gap-8">
+            <button class="btn btn-text">
+                log in
+            </button>
+
+            <button class="btn btn-primary">
+                Get Started
+            </button>
+        </div>
+
+        <!-- Mobile Button -->
+        <button id="menu-btn" class="sm:hidden z-50">
+            <!-- Hamburger -->
+            <svg id="icon-hamburger" class="block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M19.75 12a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0-5a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0 10a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75" clip-rule="evenodd"/></svg>
+
+            <!-- Close -->
+            <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12l7 7M12 12l-7 -7M12 12l-7 7M12 12l7 -7"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="12;0"/></path></svg>
+        </button>
+    </nav>
+        
+        <!-- Mobile Menu (Slide From Right) -->
+        <div id="mobile-menu" class="fixed top-0 right-0 h-full w-64 bg-putih shadow-lg translate-x-full transition-transform duration-300 ease-in-out md:hidden z-40 ">
+            <div class="pt-20 px-6 space-y-4 ">
+                <ul class="font-m flex flex-col gap-4 font-inter text-hitam">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+
+                    <li>
+                        <a href="#pricing-list">Pricing List</a>
+                    </li>
+
+                    <li>
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>             
+
+                <div class="mt-8 flex flex-row gap-6 items-center">
+                    <button class="btn btn-text">
+                        log in
+                    </button>
+
+                    <button class="btn btn-primary">
+                        Get Started
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+<!-- NAVBAR END -->
+
+
+<!-- HERO SECTION START -->
+    <div id="hero" class="w-full mt-16 p-5 sm:grid sm:grid-cols-12 sm:px-8 md:mt-20 md:px-10 md:gap-12 lg:px-20 lg:py-12 lg:mt-32">
+        <!-- Title & Desc -->
+        <div class="flex flex-col gap-4 text-center text-hitam sm:text-left sm:col-span-6 md:col-span-6 lg:gap-8">
+            <h1 class="font-jakarta header1">Convert Conversations into Measurable Results</h1>
+            
+            <p class="font-inter font-l">Relato helps teams centralize conversations, track deals, and collaborate seamlessly to turn leads into lasting customers.</p>
+            
+            <div class=" flex gap-4 justify-center sm:justify-start">
+                <button class="btn btn-primary">
+                    Get Started
+                </button>
+    
+                <button class="btn btn-outlined">
+                    View Demo
+                </button>
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="hidden sm:block translate-y-4 sm:col-span-6  ">
+            <img class="md:col-span-6 w-full"
+            " src="../Assets/Hero image.png" alt="">
+        </div>
+    </div>
+<!-- HERO SECTION END -->
+
+
+<!-- SOCIAL PROOF START -->
+    <div class="w-full flex px-5 py-8 justify-between sm:px-8 sm:mt-8 md:px-10 lg:px-20 lg:mt-12">
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof-Pinterest.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  Instagram.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  Netfilx.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  Figma.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  Tiktok.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  X.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  WhatsApp.svg" alt="">
+        </div>
+        <div>
+            <img class="social-proof" src="../Assets/Social Proof -  Discord.svg" alt="">
+        </div>
+    </div>
+<!-- SOCIAL PROOF END -->
+
+
+<!-- MATRIX START -->
+    <div class="w-full px-5 py-8 flex flex-col gap-6 sm:mt-8 sm:px-8 md:px-10 lg:gap-10 lg:mt-16 lg:px-20">
+        <!-- Title & Desc -->
+        <div class="flex flex-col gap-2 sm:w-2/3 lg:gap-4"> 
+            <p class="text-[#009CAC] font-inter font-m">Our impact</p>
+    
+            <h2 class="font-jakarta font-bold text-hitam header2">Trusted by Growing Sales Teams Worldwide</h2>
+
+            <p class="font-inter font-m text-hitam">Built to help teams manage relationships, move deals faster, and turn conversations into revenue.</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="flex flex-col gap-5 sm:flex-row items-stretch">
+            <!-- Sales -->
+            <div class="card-impact">
+                <div class="w-10 h-10">
+                    <img src="../Assets/Impact icon - Sales.svg" alt="">
+                </div>
+
+                <div class="text-hitam flex flex-col gap-2 ">
+                    <h2 class="font-jakarta font-bold font-l">200+</h2>
+                    <p class="font-inter font-semibold font-m">Sales Professionals</p>
+                    <p class="font-inter font-m ">Empowering sales teams to organize leads and convert prospects into customers.</p>
+                </div>
+            </div>
+
+            <!-- Pipeline -->
+            <div class="card-impact">
+                <div class="w-10 h-10">
+                    <img src="../Assets/Impact icon - Pipelined.svg" alt="">
+                </div>
+
+                <div class="text-hitam flex flex-col gap-2">
+                    <h2 class="font-jakarta font-bold font-l">3M+</h2>
+                    <p class="font-inter font-semibold font-m">Pipeline Value Managed</p>
+                    <p class="font-inter font-m">Track, prioritize, and move high-value deals through every stage.</p>
+                </div>
+            </div>
+
+            <!-- Conversion -->
+            <div class="card-impact">
+                <div class="w-10 h-10">
+                    <img src="../Assets/Impact icon - Conversion.svg" alt="">
+                </div>
+
+                <div class="text-hitam flex flex-col gap-2">
+                    <h2 class="font-jakarta font-bold font-l">32%</h2>
+                    <p class="font-inter font-semibold font-m">Average Conversion Lift</p>
+                    <p class="font-inter font-m">Teams experience improved deal conversion with clearer insights and follow-ups.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- MATRIX END -->
+
+
+<!-- FEATURE START -->
+    <div class="w-full flex flex-col px-5 py-8 gap-6 sm:mt-8 sm:px-8 md:px-10 lg:gap-10 lg:mt-16 lg:px-20">
+        <!-- Title & Desc -->
+        <div class="flex flex-col gap-2">
+            <p class="text-[#009CAC] font-inter font-m">Feature</p>
+    
+            <h2 class="font-jakarta font-bold text-hitam header2">One Platform to Manage Every Interaction </h2>
+
+            <p class="font-inter font-m">Track performance, manage conversations, monitor tasks, and follow every lead in one system.</p>
+        </div>
+
+        <!-- Features Mobile -->
+        <div class="flex flex-col gap-4 items-center md:gap-6 lg:hidden">
+            <div class="flex gap-8 justify-center font-inter feature-tabs sm:gap-10">
+                <img class="h-14 w-14 feature-tab cursor-pointer sm:h-20 sm:w-20 md:h-24 md:w-24" src="../Assets/Overview - Filled.svg" data-feature="overview" data-outlined="../Assets/Overview - Outlined Mobile.svg" data-filled="../Assets/Overview - Filled.svg" alt="">
+                <img class="h-14 w-14 feature-tab cursor-pointer sm:h-20 sm:w-20 md:h-24 md:w-24" src="../Assets/Omnichannel - Outlined Mobile.svg" data-feature="tasks"  data-outlined="../Assets/Omnichannel - Outlined Mobile.svg" data-filled="../Assets/Omnichannel - Filled.svg" alt="">
+                <img class="h-14 w-14 feature-tab cursor-pointer sm:h-20 sm:w-20 md:h-24 md:w-24" src="../Assets/Task - Outlined Mobile.svg" data-feature="chat" data-outlined="../Assets/Task - Outlined Mobile.svg" data-filled="../Assets/Task - Filled.svg" alt="">
+                <img class="h-14 w-14 feature-tab cursor-pointer sm:h-20 sm:w-20 md:h-24 md:w-24" src="../Assets/Status - Outlined Mobile.svg" data-feature="automation" data-outlined="../Assets/Status - Outlined Mobile.svg" data-filled="../Assets/Status - Filled.svg" alt="">
+            </div>
+            <div class="text-center font-inter font-m">
+                <p id="feature-title" class="font-semibold">Business Performance at a Glance</p>
+                <p id="feature-desc">Track revenue and deal progress in one clear dashboard</p>
+            </div>
+
+            <div>
+                <img id="feature-image" src="../Assets/Feature Image - Overview.svg" alt="">
+            </div>  
+        </div>
+
+        <!-- Feature Desktop -->
+        <div class="hidden lg:flex gap-12 justify-between items-center">
+            <div class="flex flex-col gap-4 col-span-6">
+                <!-- Overview -->
+                <div class="feature-desktop-tab flex gap-4 items-center border-3 border-[#0099A7] p-4 rounded-xl bg-[linear-gradient(135deg,#ffffff_70%,#EAF5F6_100%)] cursor-pointer min-h-32.5 transition-all duration-300"
+                data-feature="overview">
+                    <div class="h-14 w-14">
+                        <img class="w-full" src="../Assets/Overview - Filled.svg" alt="">
+                    </div>
+        
+                    <div class="font-inter font-m">
+                        <p class="font-semibold">Business Performance at a Glance</p>
+                        <p>Track revenue and deal progress in one clear dashboard</p>
+                    </div>
+                </div>
+
+                <!-- Task -->
+                <div class="feature-desktop-tab flex gap-4 items-center border-3 border-abu100 p-4 rounded-xl cursor-pointer min-h-32.5 transition-all duration-300"
+                data-feature="tasks">
+                    <div class="h-14 w-14">
+                        <img class="w-full" src="../Assets/Task - Outlined.svg" alt="">
+                    </div>
+        
+                    <div class="font-inter font-m">
+                        <p class="font-semibold">Stay on Top of Team Execution</p>
+                        <p>Get a clear overview of tasks, priorities, and progress in one place</p>
+                    </div>
+                </div>
+
+                <!-- Omnichannel -->
+                <div class="feature-desktop-tab flex gap-4 items-center border-3 border-abu100 p-4 rounded-xl cursor-pointer min-h-32.5 transition-all duration-300"
+                data-feature="chat">
+                    <div class="h-14 w-14">
+                        <img class="w-full" src="../Assets/Omnichannel- Outlined.svg" alt="">
+                    </div>
+        
+                    <div class="font-inter font-m">
+                        <p class="font-semibold">Centralized Business Conversations</p>
+                        <p>Manage conversations from all channels in one inbox with clear context and ownership</p>
+                    </div>
+                </div>
+
+                <!-- Status -->
+                <div class="feature-desktop-tab flex gap-4 items-center border-3 border-abu100 p-4 rounded-xl cursor-pointer min-h-32.5 transition-all duration-300"
+                data-feature="automation">
+                    <div class="h-14 w-14">
+                        <img class="w-full" src="../Assets/Status - Outlined.svg" alt="">
+                    </div>
+        
+                    <div class="font-inter font-m">
+                        <p class="font-semibold">Track all interactions in one place</p>
+                        <p>See comments, documents, and status changes for each lead in real time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img
+                id="feature-desktop-image"
+                src="../Assets/Feature Image - Overview.svg" alt="">
+            </div>
+        </div>
+    </div>
+<!-- FEATURE END -->
+
+
+<!-- PRICING START -->
+    <div class="w-full flex flex-col px-5 py-8 gap-6 sm:mt-8 sm:px-8 md:px-10 lg:mt-16 lg:px-20">
+        <!-- Title & Desc -->
+        <div class="flex flex-col gap-2">
+            <p class="text-[#009CAC] font-inter font-m">Pricing List</p>
+    
+            <h2 class="font-jakarta font-bold text-hitam header2">Simple Pricing for Growing Teams</h2>
+
+            <p class="font-inter font-m">Choose a plan that fits your needs and scale your workflow without complexity.</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="flex flex-col gap-4 sm:flex-row ">
+            <!-- Starter -->
+            <div class="card-pricing border-2 border-abu100 shadow-[0_1px_2px_rgba(0,0,0,0.25)] sm:flex-1 lg:p-6">
+                <div>
+                    <img src="../Assets/Pricing Icon - Star.svg" alt="">
+                </div>
+
+                <h2 class=" font-semibold font-l text-hitam font-inter">Starter (Basic)</h2>
+
+                <p class="text-hitam font-inter">For individual getting started</p>
+                
+                <div class="flex items-end gap-2">
+                    <h2 class="header2">Rp 120.000</h2>
+                    <p class="font-s text-abu200 font-inter">/Month</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Core features</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Basic dashboard</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Conversion management</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Email support</p>
+                </div>
+
+                <button class="btn btn-outlined">
+                    Choose Plan
+                </button>
+            </div>
+
+            <!-- Professional -->
+            <div class="relative card-pricing border-2 border-[#0099A7] shadow-[0_4px_8px_rgba(0,154,67,0.25)] sm:flex-1 lg:p-6">
+                <div class="absolute font-m top-0 right-0 bg-utama text-kedua px-4 py-2 rounded-bl-sm rounded-br-sm rounded-tl-sm rounded-tr-[14px]">
+                    Most Popular
+                </div>
+                <div>
+                    <img src="../Assets/Pricing Icon -  Rocket.svg" alt="">
+                </div>
+
+                <h2 class=" font-semibold font-l text-hitam font-inter">Professional (Most Popular)</h2>
+
+                <p class="text-hitam font-inter">For growing teams</p>
+                
+                <div class="flex items-end gap-2">
+                    <h2 class="header2">Rp 145.000</h2>
+                    <p class="font-s text-abu200 font-inter">/Month</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Everything in Starter</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Advance dashboard</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Task & pipeline tracking</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Priority support</p>
+                </div>
+
+                <button class="btn btn-primary">
+                    Choose Plan
+                </button>
+            </div>
+
+            <!-- Business -->
+            <div class="card-pricing border border-abu100 shadow-[0_1px_2px_rgba(0,0,0,0.25)] sm:flex-1 lg:p-6">
+                <div>
+                    <img src="../Assets/Pricing Icon - Crown.svg" alt="">
+                </div>
+
+                <h2 class=" font-semibold font-l text-hitam font-inter">Business (Best Value)</h2>
+
+                <p class="text-hitam font-inter">For scalling teams and business</p>
+                
+                <div class="flex items-end gap-2">
+                    <h2 class="header2">Rp 280.000</h2>
+                    <p class="font-s text-abu200 font-inter">/Month</p>
+                </div>
+
+                
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Everything in Professional</p>
+                </div>
+                
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Omnichannel inbox</p>
+                </div>
+                
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Team collaboration</p>
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <div>
+                        <img src="../Assets/Icon-check.svg" alt="">
+                    </div>
+                    <p class="font-m text-hitam font-inter">Lead insights</p>
+                </div>
+                
+                <button class="btn btn-outlined">
+                    Choose Plan
+                </button>
+            </div>
+        </div>        
+    </div>    
+<!-- PRICING END -->
+
+
+<!--TESTIMONIAL START -->
+    <div class="w-full flex flex-col px-5 py-8 gap-6 sm:mt-8 sm:px-8 md:px-10 lg:mt-16 lg:px-20">
+    <!-- Title & Desc -->
+        <div class="flex flex-col gap-2">
+            <p class="text-[#009CAC] font-inter font-m">Testimonals</p>
+    
+            <h2 class="font-jakarta font-bold text-hitam header2">Success Stories</h2>
+
+            <p class="font-inter font-m">Discover how teams streamline work and convert more leads with one platform.</p>
+        </div>
+
+        <!-- Testimonial Cards -->
+        <div class="flex gap-4 overflow-x-scroll hide-scroll-bar">
+            <!-- Card1 -->
+            <div class="card-testimonial">
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                    </div>
+    
+                    <p class="font-m">“Since using Relato, our team can track every conversation and lead in one place. Follow-ups are faster, tasks are clearer, and we close deals with much less effort.”</p>
+                </div>
+    
+                <div>
+                    <p class="font-semibold font-m">Samual Pratama</p>
+                    <p class="font-s text-abu200">16 January 2026</p>
+                </div>
+            </div>
+
+            <!-- Card2 -->
+            <div class="card-testimonial">
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                    </div>
+    
+                    <p class="font-m">“Relato has transformed our workflow. We can now manage client interactions seamlessly, which has significantly improved our response times and overall productivity.”</p>
+                </div>
+    
+                <div>
+                    <p class="font-semibold font-m">Elena Martinez</p>
+                    <p class="font-s text-abu200">22 February 2026</p>
+                </div>
+            </div>
+
+            <!-- Card3 -->
+            <div class="card-testimonial">
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                    </div>
+    
+                    <p class="font-m">“With Relato, our collaboration has reached new heights. The platform's ability to centralize communication has led to better decision-making and increased sales.”</p>
+                </div>
+    
+                <div>
+                    <p class="font-semibold font-m">Raj Kumar</p>
+                    <p class="font-s text-abu200">10 March 2026</p>
+                </div>
+            </div>
+
+            <!-- Card4 -->
+            <div class="card-testimonial">
+                <div class="flex flex-col gap-2">
+                    <div class="flex">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                        <img src="../Assets/Icon Star.svg" alt="">
+                    </div>
+    
+                    <p class="font-m">“The insights we gain from Relato are invaluable. It enables us to analyze our customer interactions and refine our strategies effectively.”</p>
+                </div>
+    
+                <div>
+                    <p class="font-semibold font-m">Aisha Thompson</p>
+                    <p class="font-s text-abu200">5 April 2026</p>
+                </div>
+            </div>
+        </div>
+</div>
+<!--TESTIMONIAL END -->
+
+
+<!-- BANNER START -->
+    <div class="flex flex-col items-center gap-8 py-10 px-4 mt-8 bg-utama rounded-3xl sm:py-14 lg:flex-row lg:justify-between lg:p-40">
+        <h2 class="text-putih header2 text-center max-w-lg lg:text-left">
+            Build Better Customer Relationships in One Platform
+        </h2>
+
+        <div class="flex self-center gap-4 font-inter font-m lg:gap-8">
+            <button class="btn border border-kedua text-kedua hover:bg-[#2D7E86] ">
+                Get Started
+            </button>
+
+            <button class="btn bg-kedua hover:bg-[#2D7E86]">
+                View Demo
+            </button>
+        </div>
+    </div>
+<!-- BANNER END -->
+
+<!-- FOOTER START -->
+    <div class="flex flex-col gap-8 py-10 px-6 mt-8 sm:px-8 md:px-10">
+        <div class="flex flex-col gap-4 sm:flex-row sm:justify-between">
+            <div class="flex flex-col gap-4 w-fit items-center">
+                <div class="">
+                    <img src="../Assets/Brand name.svg" alt="">
+                </div>
+
+                <div class="flex gap-4">
+                    <img class="w-6 h-6"" src="../Assets/Icon - Instagram.svg" alt="">
+                    <img class="w-6 h-6"" src="../Assets/Icon - Facebook.svg" alt="">
+                    <img class="w-6 h-6"" src="../Assets/Icon - x.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex justify-between font-inter font-m text-hitam sm:gap-10 md:gap-16 lg:gap-32">
+                <div class="flex flex-col gap-2">
+                    <p class="font-semibold">Explore</p>
+                    <div class="flex flex-col gap-2">
+                        <p>Pricing</p>
+                        <p>Feature</p>
+                        <p>Testimonial</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <p class="font-semibold">About Us</p>
+                    <div class="flex flex-col gap-2">
+                        <p>Contact</p>
+                        <p>Blog</p>
+                        <p>Support</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <p class="font-semibold">Support</p>
+                    <div class="flex flex-col gap-2">
+                        <p>Help Center</p>
+                        <p>FAQs</p>
+                        <p>Communitiy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-abu100">
+
+        <div class="flex justify-between items-center font-inter font-m">
+            <div class="flex items-center">
+                <div>
+                    <img src="../Assets/Icon Copyright.svg" alt="">
+                </div>
+                <p class="text-hitam">relato.2026.</p>
+            </div>
+
+            <div class="flex gap-4 text-abu300" >
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER END -->
+    <script src="script.js"></script>
+</body>
+</html>
