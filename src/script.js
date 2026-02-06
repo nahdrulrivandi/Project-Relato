@@ -55,25 +55,25 @@ const dataFeature = {
     overview:{
         title:"Business Performance at a Glance",
         desc: "Tracnk revenue and deal progress in one clear dashboard",
-        image:"../Assets/Feature Image - Overview.svg"
+        image:"Assets/Feature Image - Overview.svg"
     },
 
     tasks:{
         title:"Task Management",
         desc:"Stay on top of priorities and track progress effortlessly",
-        image:"../Assets/Feature Image - Task.svg"
+        image:"Assets/Feature Image - Task.svg"
     },
 
     chat: {
         title: "Customer Interaction",
         desc: "Manage all conversations in one centralized inbox",
-        image: "../Assets/Feature Image - Omnichannel.svg"
+        image: "Assets/Feature Image - Omnichannel.svg"
     },
 
     automation:{
         title:"Workflow Automation",
         desc:"Automate repetitive tasks and save valuable time",
-        image:"../Assets/Feature Image - Status.svg"
+        image:"Assets/Feature Image - Status.svg"
     }
 };
 
