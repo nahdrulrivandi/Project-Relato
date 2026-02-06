@@ -15,6 +15,12 @@
     --color-hover: #3A8200;
 }
 
+@layer base{
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
 @layer components{
     /* TEXT */
     .font-s{
